@@ -49,7 +49,7 @@ switch (buttonInnerHTML) {
 
   document.addEventListener("keypress",function(event) {
     pressKey(event.key);
-    buttonAnimation(event.key)
+    buttonAnimation(event.key);
   });
 
     function pressKey(key) {
